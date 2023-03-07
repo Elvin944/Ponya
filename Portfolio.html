@@ -12,27 +12,57 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
-        <div class="container-fluid nav">
-          <a class="navbar-brand" href="Index.html"><img class="img" src="/assets/img/logo-8.png" alt=""></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse align-items-center padding " id="navbarScroll">
-            <ul class="ul">
-                <a class="text-decoration-none text-black" href="Index.html"><li class="ul">Home</li></a>
-                <a class="text-decoration-none text-black" href="About.html"><li class="ul">About</li></a>
-                <a class="text-decoration-none text-black" href="blog.html"><li class="ul">Blog</li></a>
-                <a class="text-decoration-none esas" href="portfolio.html"><li class="ul">Portfolio</li></a>
-                <a class="text-decoration-none text-black" href="service.html"><li class="ul">Service</li></a>
-                <a class="text-decoration-none text-black" href="Pages.html"><li class="ul">Pages</li></a>
-                <a class="text-decoration-none text-black" href="contact.html"><li class="ul"> <button class="btn b-h">Contact Us</button></li></a>
+
+  <header>
+    <nav class="navbar navbar-dark">
+      <div class="container-fluid bg-black">
+        <a class="navbar-brand" href="Index.html"><img class="img" src="assets/img/logo-8.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Ponya</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="text-decoration-none text-white" href="Index.html"><li class="ul">Home</li></a>
+              </li>
+  
+              <li class="nav-item">
+                <a class="text-decoration-none text-white" href="About.html"><li class="ul">About</li></a>
+              </li>
+              <li class="nav-item">
+                <a class="text-decoration-none text-white" href="blog.html"><li class="ul">Blog</li></a>
+              </li>
+              <li class="nav-item">
+                <a class="text-decoration-none  esas" href="Portfolio.html"><li class="ul">Portfolio</li></a>
+              </li>
+              <li class="nav-item">
+                <a class="text-decoration-none text-white" href="service.html"><li class="ul">Service</li></a>
+              </li>
+              <li class="nav-item">
+                <a class="text-decoration-none text-white" href="Pages.html"><li class="ul">Pages</li></a>
+              </li>
+              <li class="nav-item">
+                <a class="text-decoration-none text-white" href="contact.html"><li class="ul">Contact</li></a>
+              </li>
             </ul>
-            </form>
           </div>
         </div>
-      </nav>
+      </div>
+    </nav>
+    </header>
 
+    <section class="mains">
+      <h1 class="text-center"><b class="text-white size">Portfolio</b></h1>
+      <a class="text-decoration-none" href="Index.html">
+          <i class="bi bi-house-door fs-5 text-white text-center ">Home</i>
+      </a>
+  </section>
+      </nav>
 <div id="myBtnContainer" class="d-flex align-items-center justify-content-center gap-5 pt-5">
   <button class=" all1 allh" onclick="filterSelection('all')"> All</button>
   <button class=" all allh" onclick="filterSelection('food')"> Food</button>

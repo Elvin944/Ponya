@@ -12,26 +12,49 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
-        <div class="container-fluid nav">
-          <a class="navbar-brand" href="Index.html"><img class="img" src="assets/img/logo-8.png" alt=""></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse align-items-center padding " id="navbarScroll">
-            <ul class="ul">
-                <a class="text-decoration-none text-black" href="Index.html"><li class="ul">Home</li></a>
-                <a class="text-decoration-none  text-black" href="About.html"><li class="ul">About</li></a>
-                <a class="text-decoration-none text-black" href="blog.html"><li class="ul">Blog</li></a>
-                <a class="text-decoration-none text-black" href="Portfolio.html"><li class="ul">Portfolio</li></a>
-                <a class="text-decoration-none esas" href="service.html"><li class="ul">Service</li></a>
-                <a class="text-decoration-none text-black" href="Pages.html"><li class="ul">Pages</li></a>
-                <a class="text-decoration-none text-black" href="contact.html"><li class="ul"> <button class="btn b-h">Contact Us</button></li></a>
-            </ul>
-            </form>
+
+    <header>
+        <nav class="navbar navbar-dark">
+          <div class="container-fluid bg-black">
+            <a class="navbar-brand" href="Index.html"><img class="img" src="assets/img/logo-8.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Ponya</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="text-decoration-none text-white" href="Index.html"><li class="ul">Home</li></a>
+                  </li>
+      
+                  <li class="nav-item">
+                    <a class="text-decoration-none text-white" href="About.html"><li class="ul">About</li></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="text-decoration-none text-white" href="blog.html"><li class="ul">Blog</li></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="text-decoration-none text-white" href="Portfolio.html"><li class="ul">Portfolio</li></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="text-decoration-none esas" href="service.html"><li class="ul">Service</li></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="text-decoration-none text-white" href="Pages.html"><li class="ul">Pages</li></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="text-decoration-none text-white" href="contact.html"><li class="ul">Contact</li></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
-        </div>
-      </nav>
+        </nav>
+        </header>
 
     <main>
         <section class="mains">
@@ -42,18 +65,18 @@
         </section>
 
         <section>
-            <div class="d-flex flex-row align-items-center justify-content-center pt-5">
+            <div class="d-flex flex-column align-items-center justify-content-center pt-5">
                 <img class="img-6" src="assets/img/croods.png" alt="">
                 <div class="d-flex flex-column">
-                    <pre><b class="fs-5">The best in the field</b></pre>
-                    <h2 class="h-2">We offer your</h2>
+                    <pre><b class="fs-5 textcenter">The best in the field</b></pre>
+                    <h2 class="h-2" class="text-center">We offer your</h2>
                     <h2 class="h-21">Social Success</h2>
-                    <p class="pt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, <br> luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                    <p class="pt-2 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, <br> luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
                 </div>
             </div>
         </section>
 
-        <section class="d-flex flex-row pt-5 gap-3 align-items-center justify-content-center">
+        <section class="d-flex flex-column pt-5 gap-3 align-items-center justify-content-center">
             <div class="image-1"><h2 class="text-center text-white">Content Planning</h2>
                 <p class="text-center hh1 opacity">Premium Banner gives you a wide range of styles and options that you will definitely fall in love with</p>
             </div>
@@ -68,14 +91,12 @@
         <section class="pt-5">
             <div class="colormix">
                 
-                <div class="d-flex flex-row align-items-center justify-content-center pt-5">
-                    <div class="d-flex flex-column">
-                        <pre><b class="fs-5 text-white">The best in the field</b></pre>
-                        <h2 class="h-2 text-white">Strives on all</h2>
-                        <h2 class="h-21 text-white">available platforms</h2>
-                        <p class="pt-2 text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit <br> amet tellus erat. Vestibulum at turpis et lacus rutrum sollicitudin <br> dapibus a nisl. Sed vitae tristique.</p>
-                    </div>
-                    <img class="img-6 hh" src="assets/img/instagram-tsp.png" alt="">
+                <div class="d-flex flex-column align-items-center justify-content-center pt-5">
+                  <img class="img-6 hh" src="assets/img/instagram-tsp.png" alt="">
+                      <pre><b class="fs-5 text-white text-center">The best in the field</b></pre>
+                      <h2 class="h-2 text-white text-center">Strives on all</h2>
+                      <h2 class="h-21 text-white text-center">available platforms</h2>
+                      <p class="pt-2 text-white text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit <br> amet tellus erat. Vestibulum at turpis et lacus rutrum sollicitudin <br> dapibus a nisl. Sed vitae tristique.</p>
                 </div>
             </div>
         </section>
@@ -95,13 +116,12 @@
           </section>
 
           <section>
-            <div class="d-flex flex-row align-items-center justify-content-center pt-5 gap-5">
-                <img class="img-6 hh" src="assets/img/facebook.png" alt="">
-                <div class="d-flex flex-column">
-                    <pre><b class="fs-5">The best in the field</b></pre>
-                    <h2 class="h-2">Gain Organic</h2>
-                    <h2 class="h-21">Followers & Audience</h2>
-                    <p class="pt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit <br> amet tellus erat. Vestibulum at turpis et lacus rutrum sollicitudin <br> dapibus a nisl. Sed vitae tristique.</p>
+                <div class="d-flex flex-column align-items-center justify-content-center pt-5">
+                  <img class="img-6 hh" src="assets/img/facebook.png" alt="">
+                      <pre><b class="fs-5 text-white text-center">The best in the field</b></pre>
+                      <h2 class="h-2 text-center">Gain Organic</h2>
+                      <h2 class="h-21 text-center">Followers & Audience</h2>
+                      <p class="pt-2 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit <br> amet tellus erat. Vestibulum at turpis et lacus rutrum sollicitudin <br> dapibus a nisl. Sed vitae tristique.</p>
                 </div>
             </div>
         </section>
@@ -110,42 +130,20 @@
             <div class="colormix">
                 
                 <div class="d-flex flex-row align-items-center justify-content-center pt-5">
-                    <div class="d-flex flex-column">
-                        <pre><b class="fs-5 text-white">The best in the field</b></pre>
-                        <h2 class="h-2 text-white">Strives on all</h2>
-                        <h2 class="h-21 text-white">available platforms</h2>
-                        <p class="pt-2 text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit <br> amet tellus erat. Vestibulum at turpis et lacus rutrum sollicitudin <br> dapibus a nisl. Sed vitae tristique.</p>
-                    </div>
-                    <img class="img-6 hh" src="assets/img/youtube.png" alt="">
+                <div class="d-flex flex-column align-items-center justify-content-center pt-5">
+                  <img class="img-6 hh" src="assets/img/youtube.png" alt="">
+                      <pre><b class="fs-5 text-white text-center">The best in the field</b></pre>
+                      <h2 class="h-2 text-center">Strives on all</h2>
+                      <h2 class="h-21 text-center">available platforms</h2>
+                      <p class="pt-2 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit <br> amet tellus erat. Vestibulum at turpis et lacus rutrum sollicitudin <br> dapibus a nisl. Sed vitae tristique.</p>
                 </div>
             </div>
         </section>
-
-        <section class="container2">
-            <i class=" i-h fs-7 bi bi-facebook"></i>
-            <i class=" i-h fs-7 bi bi-twitter"></i>
-            <i class=" i-h fs-7 bi bi-youtube"></i>
-            <i class=" i-h fs-7 bi bi-pinterest"></i>
-            <i class=" i-h fs-7 bi bi-tiktok"></i>
-            <i class=" i-h fs-7 bi bi-snapchat"></i>
-            <i class=" i-h fs-7 bi bi-reddit"></i>
-            <i class=" i-h fs-7 bi bi-linkedin"></i>
-            <i class=" i-h fs-7 bi bi-yelp"></i>
-            <i class=" i-h fs-7 bi bi-whatsapp"></i>
-        </section>
-
-        <section class="pt-5">
             <div>
                 <h2 class="text-center bigg">Let's Get Started</h2>
             </div>
 
-            <div class="d-flex flex-row  justify-content-center pt-5">
-                <div class="d-flex flex-column right">
-                    <h2><b>Flexible <br> pricing plans</b></h2>
-                    <p>Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit. Ut elit <br> tellus, luctus nec ullamcorper <br> mattis, pulvinar dapibus leo.</p>
-                    <a class="text-black" href="#"><p class=""><i class="bi bi-box "></i> Compare plans</p>
-                </a>
-                </div>
+            <div class="d-flex flex-column  justify-content-center align-items-center pt-5">
                 <div class="box">
                     <h2 class="pt-3">Pricing Table</h2>
                     <p class="pt-3 pc">$ <b class="big5">199</b> / m</p>

@@ -10,6 +10,10 @@
     background-color: white;
 }
 
+.aa{
+    color: black;
+}
+
 .nav{
     width:80%;
     height: 7vh;
@@ -20,9 +24,10 @@
 }
 
 img{
-    padding-top:1%;
+    padding-top:1.5%;
     width:50%;
     height: auto;
+    margin-left:20%;
 }
 
 .ul{
@@ -136,6 +141,7 @@ gap:10px;
 }
 
 .section3{
+    padding-top:15%;
     background-image: url(img/pattern-2.png);
     width:100%;
     height:130vh;
@@ -205,6 +211,7 @@ gap:10px;
     flex-direction: row;
     gap: 15px;
     align-items: center;
+    margin-right:20%;
 }
 
 .button{
@@ -214,6 +221,7 @@ gap:10px;
     border: none;
     background-color: #ff4b33;
     text-decoration: underline;
+    margin-left:21%;
 }
 
 .a{
@@ -403,7 +411,7 @@ gap:10px;
 
 .button3{
     outline:2px solid black;
-    width:17%;
+    width:35%;
     height:7vh;
     border-radius:5px;
     border: none;
@@ -737,7 +745,7 @@ align-items: center; */
 }
 
 .img2{
-    width:35%;
+    width:45%;
     height: auto;
 }
 
@@ -768,13 +776,18 @@ transition:0.5s;
     width:35%;
     height:auto;
 }
+.textcenter{
+    text-align: center;
+}
 
 .h-2{
     font-size:7vh;
+    text-align: center;
 }
 .h-21{
     font-size:7vh;
     color: #ff4b33;
+    text-align: center;
 }
 
 .image-1{
@@ -808,6 +821,7 @@ transition:0.5s;
     background-image: url(img/Content_0004_close-up-of-man-hands-with-smartphone-at-office-PJAB2TH.jpg);
     width:20%;
     height: 65vh;
+    background-position: center;
     background-size: cover;
     background-blend-mode: soft-light;
     background-color: #515151;
@@ -816,7 +830,7 @@ transition:0.5s;
 
 .colormix{
     width:100%;
-    height:70vh;
+    height:110vh;
     background: rgb(244,58,96);
 background: linear-gradient(0deg, rgba(244,58,96,1) 0%, rgba(254,139,128,1) 100%);
 }
@@ -828,10 +842,9 @@ background: linear-gradient(0deg, rgba(244,58,96,1) 0%, rgba(254,139,128,1) 100%
 
 
 .div11{
-    bottom: 13vh;
-    position: relative;
+    margin-top: 5%;
     border-radius:10px;
-    width:25%;
+    width:60%;
     height:40vh;
     border: 3px solid #f2295b;
     background-color: white;
@@ -874,8 +887,9 @@ background: linear-gradient(0deg, rgba(244,58,96,1) 0%, rgba(254,139,128,1) 100%
 }
 
 .box{
-    width:20%;
-    height: 65vh;
+    margin-top:5%;
+    width:60%;
+    height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -883,8 +897,9 @@ background: linear-gradient(0deg, rgba(244,58,96,1) 0%, rgba(254,139,128,1) 100%
     border: 1px solid rgb(196, 196, 196) ;
 }
 .box2{
-    width:20%;
-    height: 65vh;
+    margin-top: 5%;
+    width:60%;
+    height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -934,105 +949,336 @@ font-size: 7vh;
 .pc{
 color:#ff4b33 ;
 }
-
-@media screen and (max-width:1024px) {
-    .button2{
-        width:15% !important;
-    }
-        .h-1{
-            font-size:6vh !important;
-        }
-        .button3{
-            margin-right:2% !important;
-        }
-        .flex-1{
-            margin-left:2% !important;
-        }
-        .small1{
-            font-size:4vh !important;
-        }
-
-        .section1{
-            padding-top:8vh !important;
-        }
-        .section-3{
-            padding-top: 15vh;
-        }
-        .text1{
-            padding-top:28vh;
-        }
-        .img{
-            display: none;
-        }
-        .b-h{
-            width:350%;
-        }
+.centerr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
- 
-@media screen and (max-width:768px){
-    .btn-1{
-        width:15% 
-    }
-    .btn-2{
-        width:15% !important;
-    }
-    .ul{
-        display: flex !important;
-        align-items: start !important;
-        justify-content: start ;
-    }
-    .section-2{
-        margin-left:10% !important;
-    }
-    .div1{
-        width:100% !important;
-        height:50vh !important;
-    }
-    .center{
-        text-align: center !important;
-    }
-    .div5{
-        width:100% !important;
-        margin-left:4.5% !important;
-    }
-    .section-3{
-        padding-top:13% !important;
-        margin-right:3% !important;
-    }
-    .text1{
-        padding-top:28% !important;
-    }
-    .section-4{
-        width:100% !important;
-    }
-    .h-1{
-        font-size:4vh !important;
-    }
 
-    .fs1{
-        font-size: 1vh !important;
+
+/* 1200 992 768 576 576 */
+
+
+@media screen and (max-width: 1200px) {
+    .img1{
+        margin-left:0.1%;
     }
-    .button3{
-        width:30% !important;
-        height:7vh !important;
+    .navbar{
+        width:100% !important;
     }
-    .section5{
-        margin-left:9% !important;
-    }
-    .div6{
-        margin-left:9% !important;
-    }
-    .footer{
-        margin-left:5% !important;
-    }
-    .t{
-        margin-left: 5% !important;
-    }
-    .btn-2{
-        width:15% !important;
-    }
-    .dd{
-        display: flex;
-        flex-direction: column;
-    }
-} 
+}
+
+@media screen and (min-width: 992px) {
+.centerr{
+    display: inline;
+}
+.button2{
+    width:15%;
+    height:8vh;
+}
+.div6{
+    width:90%;
+    gap: 5px;
+}
+.img1{
+    margin-left:0.1%;
+}
+}
+
+@media screen and (min-width: 768px) {
+.centerr{
+    display: inline;
+}
+.button2{
+    width:15%;
+    height:8vh;
+}
+.div6{
+    width:95%;
+    gap: 55px !important;
+}
+.h-1{
+    font-size:6.5vh;
+}
+.aaa{
+    font-size:2.5vh !important;
+}
+.img1{
+    margin-left:0.1%;
+}
+.img-3{
+    display:none;
+}
+.img-1{
+    width:3%;
+}
+.img-2{
+    width:3%;
+}
+.img-4{
+    width:4%;
+}
+.img-5{
+    width:6%;
+}
+.btn-1{
+width:15%;
+height:8vh;
+}
+.btn-2{
+width:15%;
+height:8vh;
+}
+
+.section-2{
+    display: flex;
+    flex-direction: column;
+}
+.div1{
+    width:50%;
+    height: auto;
+}
+
+.div5{
+    width:90%;
+    height: 70vh;
+}
+.width{
+    width:100%;
+    height: 70vh;
+}
+
+.div7{
+    gap:+20px !important;
+}
+
+}
+
+@media screen and (min-width: 576px) {
+.centerr{
+    display: inline;
+}
+.button2{
+    width:15%;
+    height:8vh;
+}
+.div6{
+    width:98%;
+    gap: 30px !important;
+}
+.h-1{
+    font-size:5vh;
+}
+.aaa{
+    font-size:2vh !important;
+}
+.img1{
+    margin-left:0.1%;
+}
+.img-3{
+    display:none;
+}
+.img-1{
+    width:3%;
+}
+.img-2{
+    width:3%;
+}
+.img-4{
+    width:4%;
+}
+.img-5{
+    width:6%;
+}
+.btn-1{
+width:20%;
+height:8vh;
+}
+.btn-2{
+width:20%;
+height:8vh;
+}
+
+.section-2{
+    display: flex;
+    flex-direction: column;
+}
+.div1{
+    width:50%;
+    height: auto;
+}
+
+.div5{
+    width:90%;
+    height: 70vh;
+}
+.width{
+    width:100%;
+    height: 70vh;
+}
+
+.div7{
+    gap:20px !important;
+}
+
+.button{
+    width:60%;
+    height:8vh;
+}
+
+.section-3{
+    padding-top:13vh;
+    margin-right:5%;
+}
+.text1{
+    padding-top:8vh;
+}
+.section5{
+    display: flex;
+    flex-direction: column;
+}
+
+.person{
+    margin-right:20%;
+}
+
+.button2{
+    width:20%;
+    height: 8vh;
+}
+.p{
+padding-top:10%;
+}
+}
+@media screen and (min-width: 235px) {
+.centerr{
+    display: inline;
+}
+.button2{
+    width:15%;
+    height:8vh;
+}
+.div6{
+    width:98%;
+    gap: 30px !important;
+}
+.h-1{
+    font-size:5vh;
+}
+.aaa{
+    font-size:2vh !important;
+}
+.img1{
+    margin-left:0.1%;
+}
+.img-3{
+    display:none;
+}
+.img-1{
+    width:3%;
+}
+.img-2{
+    width:3%;
+}
+.img-4{
+    width:4%;
+}
+.img-5{
+    width:6%;
+}
+.btn-1{
+width:48%;
+height:8vh;
+}
+.btn-2{
+width:48%;
+height:8vh;
+}
+
+.section-2{
+    display: flex;
+    flex-direction: column;
+}
+.div1{
+    width:80%;
+    height: auto;
+}
+
+.div5{
+    width:100%;
+    height: 70vh;
+}
+.width{
+    width:100%;
+    height: 70vh;
+}
+
+.div7{
+    gap:10px !important;
+}
+
+.button{
+    width:60%;
+    height:8vh;
+}
+
+.section-3{
+    padding-top:13vh;
+    margin-right:5%;
+}
+.text1{
+    padding-top:15vh;
+}
+.section5{
+    display: flex;
+    flex-direction: column;
+}
+
+.person{
+    margin-right:20%;
+}
+
+.button2{
+    width:40%;
+    height: 8vh;
+}
+.p{
+padding-top:10%;
+}
+.small1{
+    text-align: center;
+}
+.section3{
+    padding-top:20vh;
+}
+.aaaa{
+    font-size:2.5vh;
+}
+.img-6{
+    width:50%;
+    margin-right:20%;
+}
+.image-1{
+    width:60%;
+    height:60vh;
+}
+.image-2{
+    width:60%;
+    height:60vh;
+}
+.image-3{
+    width:60%;
+    height:60vh;
+}
+.image-4{
+    width:60%;
+    height:60vh;
+}
+.container2{
+    gap:5px;
+}
+
+.pt{
+    padding-top:35%;
+}
+}
